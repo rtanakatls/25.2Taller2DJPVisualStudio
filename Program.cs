@@ -10,6 +10,41 @@ namespace Taller2D252JP
     {
         static void Main(string[] args)
         {
+            /*Leer 2 número y operar suma, resta, multiplicación*/
+            /*
+            int a;
+            int b;
+
+            Console.WriteLine("Introduce el primer número");
+            a=int.Parse(Console.ReadLine());
+            Console.WriteLine("Introduce el segundo número");
+            b=int.Parse(Console.ReadLine());
+
+            Console.WriteLine($"a+b={a + b}");
+            Console.WriteLine($"a-b={a - b}");
+            Console.WriteLine($"a*b={a * b}");
+            */
+
+            /*Leer 2 números y operar división y módulo*/
+            float c;
+            float d;
+
+            Console.WriteLine("Introduce el primer número");
+            c = int.Parse(Console.ReadLine());
+            Console.WriteLine("Introduce el segundo número");
+            d = int.Parse(Console.ReadLine());
+
+            if (d != 0)
+            {
+                Console.WriteLine($"c/d={c / d}");
+                Console.WriteLine($"c%d={c % d}");
+            }
+            else
+            {
+                Console.WriteLine("No se puede dividir entre 0");
+            }
+
+            /*
             string name;
             int age = 0;
             bool isCorrect = false;
@@ -64,7 +99,7 @@ namespace Taller2D252JP
                     break;
             }
 
-
+            */
         }
     }
 }
