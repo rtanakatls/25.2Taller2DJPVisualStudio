@@ -10,7 +10,7 @@ namespace Taller2D252JP
     {
         static void Main(string[] args)
         {
-            Menu menu = new Menu();
+            ExampleMenu menu = new ExampleMenu();
             menu.Execute();
         }
     }
