@@ -47,6 +47,8 @@
     <Compile Include="Menu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shapes\Rectangle.cs" />
+    <Compile Include="Shapes\ShapeMenu.cs" />
     <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>
