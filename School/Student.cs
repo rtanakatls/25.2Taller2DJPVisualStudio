@@ -4,19 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Taller2D252JP
+namespace Taller2D252JP.School
 {
     internal class Student
     {
-        private string code;
         private string name;
         private float grade1;
         private float grade2;
         private float grade3;
 
-        public Student(string code, string name, float grade1, float grade2, float grade3)
+        public Student(string name, float grade1, float grade2, float grade3)
         {
-            this.code = code;
             this.name = name;
             this.grade1 = grade1;
             this.grade2 = grade2;
@@ -25,7 +23,7 @@ namespace Taller2D252JP
 
         public string GetData()
         {
-            return $"{code} - {name} - {grade1} - {grade2} - {grade3}";
+            return $"{name} - {grade1} - {grade2} - {grade3}";
         }
         
         public float GetFinalGrade()

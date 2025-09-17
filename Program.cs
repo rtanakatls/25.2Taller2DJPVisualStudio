@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Taller2D252JP.School;
 using Taller2D252JP.Shapes;
 
 namespace Taller2D252JP
@@ -11,7 +12,7 @@ namespace Taller2D252JP
     {
         static void Main(string[] args)
         {
-            ShapeMenu menu = new ShapeMenu();
+            SchoolMenu menu = new SchoolMenu();
             menu.Execute();
         }
     }
